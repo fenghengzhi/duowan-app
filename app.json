@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "多玩图库",
+    "slug": "duowan",
+    "version": "1.0.3",
+    "icon": "logo.png",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "sdkVersion": "31.0.0",
+    "packagerOpts": {
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000",
+      "hidden": false,
+      "translucent": false
+    },
+    "android": {
+      "package": "com.duowan.tu",
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_INTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE"
+      ]
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    }
+  }
+}
