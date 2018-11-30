@@ -8,6 +8,7 @@
     "orientation": "portrait",
     "sdkVersion": "31.0.0",
     "packagerOpts": {
+      "port": 5389,
       "sourceExts": [
         "ts",
         "tsx"

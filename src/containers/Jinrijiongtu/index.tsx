@@ -1,5 +1,5 @@
 import axios from 'axios';
-import cheerio from 'cheerio-without-node-native';
+import cheerio from '../../cheerio';
 import {autobind} from "core-decorators";
 import * as React from 'react';
 import {RefreshControl, ScrollView, StyleSheet} from 'react-native';
